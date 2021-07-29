@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Conversion.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ProfitCalculator.cpp">
+    <ClCompile Include="Profits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

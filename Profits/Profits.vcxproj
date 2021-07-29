@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0f8469ff-4ac3-41bf-bacc-a7193237417c}</ProjectGuid>
-    <RootNamespace>BasicProjects</RootNamespace>
+    <ProjectGuid>{79824652-7e8c-4220-bdb0-a92f82fab2a9}</ProjectGuid>
+    <RootNamespace>Profits</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,8 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Conversion.cpp" />
-    <ClCompile Include="ProfitCalculator.cpp" />
+    <ClCompile Include="Profits.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

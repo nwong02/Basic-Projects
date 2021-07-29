@@ -9,6 +9,8 @@
 
 #define VOLUME_IN_MILLILITRES 500
 
+double millToGallon(int volume);
+
 double millToGallon(int volume)
 {
 	double gallon = 0.0;
