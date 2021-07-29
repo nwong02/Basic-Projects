@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+* FILENAME		: Conversion.cpp
+* AUTHOR		: Nelson Wong
+* DESCRIPTION	: Project to convert volume in mL to gal (US), chose to write the converting part as its own function and call it in main, may decide to write the remaining volume as its own function later
+*/
 
 #define VOLUME_IN_MILLILITRES 500
 
