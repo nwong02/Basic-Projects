@@ -10,9 +10,9 @@ int main(void)
 {
 	int maxLoadCapacity = 56;		//in metric tonnes
 	int numberOfBoxes = 760;		
-	int massOfBoxes = 0.025;		//in metric tonnes
+	double massOfBoxes = 0.025;		//in metric tonnes
 
-	double currentMass = numberOfBoxes * massOfBoxes;
+	double currentMass = (double)(numberOfBoxes * massOfBoxes);
 
 	if (currentMass > maxLoadCapacity)
 	{
