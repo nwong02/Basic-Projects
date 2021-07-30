@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0f8469ff-4ac3-41bf-bacc-a7193237417c}</ProjectGuid>
-    <RootNamespace>BasicProjects</RootNamespace>
+    <ProjectGuid>{3275d228-7382-42e7-be0e-3af0003f8441}</ProjectGuid>
+    <RootNamespace>MaxCapacity</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Conversion.cpp" />
+    <ClCompile Include="Capacity.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

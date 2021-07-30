@@ -15,13 +15,15 @@ int profit = PREVIOUS_YEAR_PROFIT;
 
 double salesIncrease(double previousYearSale)
 {
-	double yearlySale = 1.0 * previousYearSale;
+	double yearlySale = 1.13 * previousYearSale;
+	printf("This year's sale is: %f: \n", yearlySale);
 	return yearlySale;
 }
 
 double profitIncrease(double previousYearProfit)
 {
-	double yearlyProfit = 1.0 * previousYearProfit;
+	double yearlyProfit = 1.27 * previousYearProfit;
+	printf("This year's profit is: %f: \n", yearlyProfit);
 	return yearlyProfit;
 }
 
