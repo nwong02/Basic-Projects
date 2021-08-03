@@ -12,12 +12,15 @@ int main(void)
 	int numberOfBoxes = 760;		
 	double massOfBoxes = 0.025;		//in metric tonnes
 
+	double quantityOfBoxes = maxLoadCapacity / massOfBoxes;
 	double currentMass = (double)(numberOfBoxes * massOfBoxes);
+
+	double boxesRemaining = quantityOfBoxes - numberOfBoxes;
 
 	if (currentMass > maxLoadCapacity)
 	{
 		printf("The maximum load has been exceeded!\n");
-		printf("Must remove x number of boxes.\n");
+		printf("Must remove %f number of boxes.\n", boxesRemaining);
 	}
 	else
 	{
