@@ -10,21 +10,22 @@
 
 double squareRootGuess(double n)
 {
-	double initialGuess = n / 2;
-	double r = n / initialGuess;
-	double previousGuess = 0.0;
-
-	for (int i = 0; i < 5; i++)
+	double guess = n / 2;
+	double ratio = n / guess;
+	double precision = 0.001;
+	while (guess - ratio > precision)
 	{
-		double guess = (initialGuess + r) / 2;
-		printf("Square root of %f is %f.\n", n, guess);
-		return guess;
+		guess = (guess + ratio) / 2;
+		ratio = n / guess;
+		printf("%f\n", guess);
 	}
+	return ratio;
 }
 
 
 int main(void)
 {
-	double i = 5.0;
-	squareRootGuess(i);
+
+	double number = 5.0;
+	squareRootGuess(number);
 }
